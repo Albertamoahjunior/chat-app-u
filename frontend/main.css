@@ -1,3 +1,19 @@
+#menu-button{
+    position: absolute;
+    background-color: #0000;
+    border: 0;
+    color: f3f3f3;
+    height: 7%;
+    width: 5%;
+    top: 2% ;
+    left: 2%;
+}
+
+#menu-icon{
+    color: #f3f3f3;
+    font-size: 3rem;
+}
+
 .navigate{
     position: absolute; 
     width: 13%;
