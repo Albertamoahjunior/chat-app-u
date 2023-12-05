@@ -8,13 +8,27 @@
         <meta name="keywords" content="chat, simple, great, easy">
         <title>Welcome to uchat</title>
         <link rel="stylesheet" type="text/css" href="./base.css">
+        <link rel="stylesheet" href="./signup.css">
         <script src="https://kit.fontawesome.com/19ec56a0ed.js" crossorigin="anonymous"></script>
         <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     </head>
 <body>
 
-    <div id="container">
-
+    <div id="signup-container">
+        <h3>Sign Up</h3>
+        <form class="signup-form">
+            <input class="form-input" type="text" placeholder="first name">
+            <input class="form-input"  type="text" placeholder="last name">
+            <input class="form-input"  type="datetime" placeholder="Date of birth">
+            <select class="form-input">
+                <option value="0">Choose your country</option>
+            </select>
+            <input class="form-input"  type="email" placeholder="Enter your email">
+            <input class="form-input"  type="text" placeholder="Add username">
+            <input class="form-input"  type="password" placeholder="Enter password">
+            <input class="form-input"  type="password" placeholder="Confirm password">
+            <button id="submit-button">sign up</button>
+        </form>
     </div>
     
 </body>
