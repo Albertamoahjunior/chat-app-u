@@ -62,7 +62,6 @@
 
 #chat-container #chat-page #message-header{
     position: absolute;
-    display: flex;
     left: 0;
     top: 0;
     height: 8%;
@@ -72,18 +71,23 @@
 }
 
 #chat-container #chat-page #message-header .profile{
-    background-color: #948f8f;
-    align-self: flex-start;
-    justify-self: flex-start;
-    margin-left:3%;
-    margin-top: 1.5%;
+    background-color: rgb(126, 142, 167);
+    color: rgb(33, 53, 83);
+    font-size: 2rem;
+    position: absolute;
+    text-align: center;
+    left: 1rem;
+    top: 0.5rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 3rem;
   }
 
 #chat-container #chat-page #message-header #message-menu{
-    align-self: flex-end;
-    justify-self: flex-end;
-    margin-left:3%;
-    margin-top: 1.5%;
+    position: absolute;
+    right: 1rem;
+    top: 0.5rem;
+    margin: 0;
   }
 
 .header-menu{
